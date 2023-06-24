@@ -2,32 +2,54 @@
 <html>
   <head>
     <title>Stylish Online Store</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Petit+Formal+Script&family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="author" content="" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self';" />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff"/>
+    <meta name="referrer" content="origin" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Petit+Formal+Script&family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- script
     ================================================== -->
     <script src="js/modernizr.js"></script>
   </head>
   <body>
-    <div class="modal fade" id="modallong" tabindex="-1" aria-modal="true" role="dialog">
+    <div
+      class="modal fade"
+      id="modallong"
+      tabindex="-1"
+      aria-modal="true"
+      role="dialog"
+    >
       <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h2 class="modal-title fs-5">Cart <span class="count-product-cart">3</span>
+            <h2 class="modal-title fs-5">
+              Cart <span class="count-product-cart">3</span>
             </h2>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
           </div>
           <div class="modal-body">
             <div class="shopping-cart">
@@ -36,29 +58,61 @@
                   <div class="mini-cart-item d-flex border-bottom pb-3">
                     <div class="col-lg-5">
                       <a href="#" title="product-image">
-                        <img src="images/single-product-thumb1.jpg" class="img-fluid" alt="single-product-item">
+                        <img
+                          src="images/single-product-thumb1.jpg"
+                          class="img-fluid"
+                          alt="single-product-item"
+                        />
                       </a>
                     </div>
                     <div class="col-lg-7">
-                      <div class="product-header d-flex justify-content-between align-items-center mb-3">
-                        <h4 class="product-title fs-5">Running Shoes For Men</h4>
-                        <a href="" class="remove" aria-label="Remove this item" data-product_id="11913" data-cart_item_key="abc" data-product_sku="">
+                      <div
+                        class="product-header d-flex justify-content-between align-items-center mb-3"
+                      >
+                        <h4 class="product-title fs-5">
+                          Running Shoes For Men
+                        </h4>
+                        <a
+                          href=""
+                          class="remove"
+                          aria-label="Remove this item"
+                          data-product_id="11913"
+                          data-cart_item_key="abc"
+                          data-product_sku=""
+                        >
                           <svg class="close">
                             <use xlink:href="#close"></use>
                           </svg>
                         </a>
                       </div>
-                      <div class="quantity-price d-flex justify-content-between align-items-center">
+                      <div
+                        class="quantity-price d-flex justify-content-between align-items-center"
+                      >
                         <div class="quantity d-flex">
-                          <div class="qty-number align-top qty-number-plus d-flex justify-content-center align-items-center text-center">
+                          <div
+                            class="qty-number align-top qty-number-plus d-flex justify-content-center align-items-center text-center"
+                          >
                             <span class="increase-qty plus">
                               <svg class="plus">
                                 <use xlink:href="#plus"></use>
                               </svg>
                             </span>
                           </div>
-                          <input type="number" id="quantity_001" class="input-text text-center" step="1" min="1" max="" name="quantity" value="1" title="Qty" inputmode="numeric">
-                          <div class="qty-number qty-number-minus d-flex justify-content-center align-items-center text-center">
+                          <input
+                            type="number"
+                            id="quantity_001"
+                            class="input-text text-center"
+                            step="1"
+                            min="1"
+                            max=""
+                            name="quantity"
+                            value="1"
+                            title="Qty"
+                            inputmode="numeric"
+                          />
+                          <div
+                            class="qty-number qty-number-minus d-flex justify-content-center align-items-center text-center"
+                          >
                             <span class="increase-qty minus">
                               <svg class="minus">
                                 <use xlink:href="#minus"></use>
@@ -78,29 +132,59 @@
                   <div class="mini-cart-item d-flex border-bottom pb-3">
                     <div class="col-lg-5">
                       <a href="#" title="product-image">
-                        <img src="images/single-product-thumb2.jpg" class="img-fluid" alt="single-product-item">
+                        <img
+                          src="images/single-product-thumb2.jpg"
+                          class="img-fluid"
+                          alt="single-product-item"
+                        />
                       </a>
                     </div>
                     <div class="col-lg-7">
-                      <div class="product-header d-flex justify-content-between align-items-center mb-3">
+                      <div
+                        class="product-header d-flex justify-content-between align-items-center mb-3"
+                      >
                         <h4 class="product-title fs-5">Brand Shoes For Men</h4>
-                        <a href="" class="remove" aria-label="Remove this item" data-product_id="11913" data-cart_item_key="abc" data-product_sku="">
+                        <a
+                          href=""
+                          class="remove"
+                          aria-label="Remove this item"
+                          data-product_id="11913"
+                          data-cart_item_key="abc"
+                          data-product_sku=""
+                        >
                           <svg class="close">
                             <use xlink:href="#close"></use>
                           </svg>
                         </a>
                       </div>
-                      <div class="quantity-price d-flex justify-content-between align-items-center">
+                      <div
+                        class="quantity-price d-flex justify-content-between align-items-center"
+                      >
                         <div class="quantity d-flex">
-                          <div class="qty-number align-top qty-number-plus d-flex justify-content-center align-items-center text-center">
+                          <div
+                            class="qty-number align-top qty-number-plus d-flex justify-content-center align-items-center text-center"
+                          >
                             <span class="increase-qty plus">
                               <svg class="plus">
                                 <use xlink:href="#plus"></use>
                               </svg>
                             </span>
                           </div>
-                          <input type="number" id="quantity_001" class="input-text text-center" step="1" min="1" max="" name="quantity" value="1" title="Qty" inputmode="numeric">
-                          <div class="qty-number qty-number-minus d-flex justify-content-center align-items-center text-center">
+                          <input
+                            type="number"
+                            id="quantity_001"
+                            class="input-text text-center"
+                            step="1"
+                            min="1"
+                            max=""
+                            name="quantity"
+                            value="1"
+                            title="Qty"
+                            inputmode="numeric"
+                          />
+                          <div
+                            class="qty-number qty-number-minus d-flex justify-content-center align-items-center text-center"
+                          >
                             <span class="increase-qty minus">
                               <svg class="minus">
                                 <use xlink:href="#minus"></use>
@@ -120,15 +204,26 @@
                 <div class="mini-cart-total d-flex justify-content-between">
                   <span class="fs-5">Subtotal:</span>
                   <span class="special-price-code">
-                    <span class="price-amount amount fs-3" style="opacity: 1;">
+                    <span class="price-amount amount fs-3" style="opacity: 1">
                       <bdi>
-                        <span class="price-currency-symbol">$</span>198.00 </bdi>
+                        <span class="price-currency-symbol">$</span>198.00
+                      </bdi>
                     </span>
                   </span>
                 </div>
                 <div class="modal-footer mt-5">
-                  <button type="button" class="btn btn-black btn-large hvr-sweep-to-right">View Cart</button>
-                  <button type="button" class="btn btn-outline-gray btn-large hvr-sweep-to-right">Checkout</button>
+                  <button
+                    type="button"
+                    class="btn btn-black btn-large hvr-sweep-to-right"
+                  >
+                    View Cart
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-outline-gray btn-large hvr-sweep-to-right"
+                  >
+                    Checkout
+                  </button>
                 </div>
               </div>
             </div>
@@ -137,7 +232,13 @@
       </div>
     </div>
     <!-- cart view -->
-    <div class="modal fade" id="modallogin" tabindex="-1" aria-modal="true" role="dialog">
+    <div
+      class="modal fade"
+      id="modallogin"
+      tabindex="-1"
+      aria-modal="true"
+      role="dialog"
+    >
       <div class="modal-dialog" role="document">
         <div class="modal-content p-4">
           <div class="modal-header mx-auto border-0">
@@ -148,12 +249,29 @@
               <div class="login-form p-0">
                 <div class="col-lg-12 mx-auto">
                   <form id="login-form">
-                    <input type="text" name="username" placeholder="Username or Email Address *" class="mb-3 ps-3 text-input">
-                    <input type="password" name="password" placeholder="Password" class="ps-3 text-input">
+                    <input
+                      type="text"
+                      name="username"
+                      placeholder="Username or Email Address *"
+                      class="mb-3 ps-3 text-input"
+                    />
+                    <input
+                      type="password"
+                      name="password"
+                      placeholder="Password"
+                      class="ps-3 text-input"
+                    />
                     <div class="checkbox d-flex justify-content-between mt-4">
                       <p class="checkbox-form">
                         <label class="">
-                          <input name="rememberme" type="checkbox" id="remember-me" value="forever"> Remember me </label>
+                          <input
+                            name="rememberme"
+                            type="checkbox"
+                            id="remember-me"
+                            value="forever"
+                          />
+                          Remember me
+                        </label>
                       </p>
                       <p class="lost-password">
                         <a href="#">Forgot your password?</a>
@@ -163,8 +281,18 @@
                 </div>
               </div>
               <div class="modal-footer mt-5 d-flex justify-content-center">
-                <button type="button" class="btn btn-black btn-medium hvr-sweep-to-right">Login</button>
-                <button type="button" class="btn btn-outline-gray btn-medium hvr-sweep-to-right">Register</button>
+                <button
+                  type="button"
+                  class="btn btn-black btn-medium hvr-sweep-to-right"
+                >
+                  Login
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-gray btn-medium hvr-sweep-to-right"
+                >
+                  Register
+                </button>
               </div>
             </div>
           </div>
@@ -172,51 +300,139 @@
       </div>
     </div>
     <!-- Login -->
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-      <symbol xmlns="http://www.w3.org/2000/svg" id="shopping-cart" viewBox="0 0 16 16">
-        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        id="shopping-cart"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+        />
       </symbol>
-      <symbol xmlns="http://www.w3.org/2000/svg" id="nav-icon" viewBox="0 0 16 16">
-        <path d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z" />
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        id="nav-icon"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z"
+        />
       </symbol>
       <symbol xmlns="http://www.w3.org/2000/svg" id="close" viewBox="0 0 16 16">
-        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+        <path
+          d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"
+        />
       </symbol>
-      <symbol xmlns="http://www.w3.org/2000/svg" id="navbar-icon" viewBox="0 0 16 16">
-        <path d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z" />
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        id="navbar-icon"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z"
+        />
       </symbol>
       <symbol xmlns="http://www.w3.org/2000/svg" id="user" viewBox="0 0 16 16">
-        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+        <path
+          d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+        />
       </symbol>
-      <symbol xmlns="http://www.w3.org/2000/svg" id="wishlist" viewBox="0 0 16 16">
-        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        id="wishlist"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+        />
       </symbol>
-      <symbol xmlns="http://www.w3.org/2000/svg" id="search" viewBox="0 0 24 24">
-        <path fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z" />
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        id="search"
+        viewBox="0 0 24 24"
+      >
+        <path
+          fill="currentColor"
+          d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z"
+        />
       </symbol>
-      <symbol xmlns="http://www.w3.org/2000/svg" id="facebook" viewBox="0 0 24 24">
-        <path fill="currentColor" d="M9.198 21.5h4v-8.01h3.604l.396-3.98h-4V7.5a1 1 0 0 1 1-1h3v-4h-3a5 5 0 0 0-5 5v2.01h-2l-.396 3.98h2.396v8.01Z" />
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        id="facebook"
+        viewBox="0 0 24 24"
+      >
+        <path
+          fill="currentColor"
+          d="M9.198 21.5h4v-8.01h3.604l.396-3.98h-4V7.5a1 1 0 0 1 1-1h3v-4h-3a5 5 0 0 0-5 5v2.01h-2l-.396 3.98h2.396v8.01Z"
+        />
       </symbol>
-      <symbol xmlns="http://www.w3.org/2000/svg" id="facebook-dark" viewBox="0 0 16 16">
-        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        id="facebook-dark"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+        />
       </symbol>
-      <symbol xmlns="http://www.w3.org/2000/svg" id="instagram-dark" viewBox="0 0 256 256">
-        <path fill="currentColor" d="M176 24H80a56.06 56.06 0 0 0-56 56v96a56.06 56.06 0 0 0 56 56h96a56.06 56.06 0 0 0 56-56V80a56.06 56.06 0 0 0-56-56Zm-48 152a48 48 0 1 1 48-48a48.05 48.05 0 0 1-48 48Zm60-96a12 12 0 1 1 12-12a12 12 0 0 1-12 12Zm-28 48a32 32 0 1 1-32-32a32 32 0 0 1 32 32Z" />
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        id="instagram-dark"
+        viewBox="0 0 256 256"
+      >
+        <path
+          fill="currentColor"
+          d="M176 24H80a56.06 56.06 0 0 0-56 56v96a56.06 56.06 0 0 0 56 56h96a56.06 56.06 0 0 0 56-56V80a56.06 56.06 0 0 0-56-56Zm-48 152a48 48 0 1 1 48-48a48.05 48.05 0 0 1-48 48Zm60-96a12 12 0 1 1 12-12a12 12 0 0 1-12 12Zm-28 48a32 32 0 1 1-32-32a32 32 0 0 1 32 32Z"
+        />
       </symbol>
-      <symbol xmlns="http://www.w3.org/2000/svg" id="youtube" viewBox="0 0 32 32">
-        <path fill="currentColor" d="M29.41 9.26a3.5 3.5 0 0 0-2.47-2.47C24.76 6.2 16 6.2 16 6.2s-8.76 0-10.94.59a3.5 3.5 0 0 0-2.47 2.47A36.13 36.13 0 0 0 2 16a36.13 36.13 0 0 0 .59 6.74a3.5 3.5 0 0 0 2.47 2.47c2.18.59 10.94.59 10.94.59s8.76 0 10.94-.59a3.5 3.5 0 0 0 2.47-2.47A36.13 36.13 0 0 0 30 16a36.13 36.13 0 0 0-.59-6.74ZM13.2 20.2v-8.4l7.27 4.2Z" />
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        id="youtube"
+        viewBox="0 0 32 32"
+      >
+        <path
+          fill="currentColor"
+          d="M29.41 9.26a3.5 3.5 0 0 0-2.47-2.47C24.76 6.2 16 6.2 16 6.2s-8.76 0-10.94.59a3.5 3.5 0 0 0-2.47 2.47A36.13 36.13 0 0 0 2 16a36.13 36.13 0 0 0 .59 6.74a3.5 3.5 0 0 0 2.47 2.47c2.18.59 10.94.59 10.94.59s8.76 0 10.94-.59a3.5 3.5 0 0 0 2.47-2.47A36.13 36.13 0 0 0 30 16a36.13 36.13 0 0 0-.59-6.74ZM13.2 20.2v-8.4l7.27 4.2Z"
+        />
       </symbol>
-      <symbol xmlns="http://www.w3.org/2000/svg" id="instagram" viewBox="0 0 256 256">
-        <path fill="currentColor" d="M128 80a48 48 0 1 0 48 48a48.05 48.05 0 0 0-48-48Zm0 80a32 32 0 1 1 32-32a32 32 0 0 1-32 32Zm48-136H80a56.06 56.06 0 0 0-56 56v96a56.06 56.06 0 0 0 56 56h96a56.06 56.06 0 0 0 56-56V80a56.06 56.06 0 0 0-56-56Zm40 152a40 40 0 0 1-40 40H80a40 40 0 0 1-40-40V80a40 40 0 0 1 40-40h96a40 40 0 0 1 40 40ZM192 76a12 12 0 1 1-12-12a12 12 0 0 1 12 12Z" />
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        id="instagram"
+        viewBox="0 0 256 256"
+      >
+        <path
+          fill="currentColor"
+          d="M128 80a48 48 0 1 0 48 48a48.05 48.05 0 0 0-48-48Zm0 80a32 32 0 1 1 32-32a32 32 0 0 1-32 32Zm48-136H80a56.06 56.06 0 0 0-56 56v96a56.06 56.06 0 0 0 56 56h96a56.06 56.06 0 0 0 56-56V80a56.06 56.06 0 0 0-56-56Zm40 152a40 40 0 0 1-40 40H80a40 40 0 0 1-40-40V80a40 40 0 0 1 40-40h96a40 40 0 0 1 40 40ZM192 76a12 12 0 1 1-12-12a12 12 0 0 1 12 12Z"
+        />
       </symbol>
-      <symbol xmlns="http://www.w3.org/2000/svg" id="pinterest" viewBox="0 0 24 24">
-        <path fill="currentColor" d="M9.04 21.54c.96.29 1.93.46 2.96.46a10 10 0 0 0 10-10A10 10 0 0 0 12 2A10 10 0 0 0 2 12c0 4.25 2.67 7.9 6.44 9.34c-.09-.78-.18-2.07 0-2.96l1.15-4.94s-.29-.58-.29-1.5c0-1.38.86-2.41 1.84-2.41c.86 0 1.26.63 1.26 1.44c0 .86-.57 2.09-.86 3.27c-.17.98.52 1.84 1.52 1.84c1.78 0 3.16-1.9 3.16-4.58c0-2.4-1.72-4.04-4.19-4.04c-2.82 0-4.48 2.1-4.48 4.31c0 .86.28 1.73.74 2.3c.09.06.09.14.06.29l-.29 1.09c0 .17-.11.23-.28.11c-1.28-.56-2.02-2.38-2.02-3.85c0-3.16 2.24-6.03 6.56-6.03c3.44 0 6.12 2.47 6.12 5.75c0 3.44-2.13 6.2-5.18 6.2c-.97 0-1.92-.52-2.26-1.13l-.67 2.37c-.23.86-.86 2.01-1.29 2.7v-.03Z" />
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        id="pinterest"
+        viewBox="0 0 24 24"
+      >
+        <path
+          fill="currentColor"
+          d="M9.04 21.54c.96.29 1.93.46 2.96.46a10 10 0 0 0 10-10A10 10 0 0 0 12 2A10 10 0 0 0 2 12c0 4.25 2.67 7.9 6.44 9.34c-.09-.78-.18-2.07 0-2.96l1.15-4.94s-.29-.58-.29-1.5c0-1.38.86-2.41 1.84-2.41c.86 0 1.26.63 1.26 1.44c0 .86-.57 2.09-.86 3.27c-.17.98.52 1.84 1.52 1.84c1.78 0 3.16-1.9 3.16-4.58c0-2.4-1.72-4.04-4.19-4.04c-2.82 0-4.48 2.1-4.48 4.31c0 .86.28 1.73.74 2.3c.09.06.09.14.06.29l-.29 1.09c0 .17-.11.23-.28.11c-1.28-.56-2.02-2.38-2.02-3.85c0-3.16 2.24-6.03 6.56-6.03c3.44 0 6.12 2.47 6.12 5.75c0 3.44-2.13 6.2-5.18 6.2c-.97 0-1.92-.52-2.26-1.13l-.67 2.37c-.23.86-.86 2.01-1.29 2.7v-.03Z"
+        />
       </symbol>
-      <symbol xmlns="http://www.w3.org/2000/svg" id="shopping-carriage" viewBox="0 0 16 16">
-        <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0v-2z" />
-        <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6H2.163z" />
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        id="shopping-carriage"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0v-2z"
+        />
+        <path
+          d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6H2.163z"
+        />
       </symbol>
-      <symbol xmlns="http://www.w3.org/2000/svg" id="dropdown" viewBox="0 0 24 24">
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        id="dropdown"
+        viewBox="0 0 24 24"
+      >
         <path fill="currentColor" d="m7 10l5 5l5-5H7Z" />
       </symbol>
     </svg>
@@ -227,8 +443,13 @@
             <use xlink:href="#close"></use>
           </svg>
         </div>
-        <form id="search-form" class="text-lg-center text-md-left pt-3" action="" method="">
-          <input type="text" class="search-input" placeholder="Search...">
+        <form
+          id="search-form"
+          class="text-lg-center text-md-left pt-3"
+          action=""
+          method=""
+        >
+          <input type="text" class="search-input" placeholder="Search..." />
           <svg class="search">
             <use xlink:href="#search"></use>
           </svg>
@@ -272,12 +493,24 @@
               </ul>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
-              <p class="gray-400">OPENING TIME: Open: 8:00 AM - Close: 18:00 PM Saturday - Sunday: Close</p>
+              <p class="gray-400">
+                OPENING TIME: Open: 8:00 AM - Close: 18:00 PM Saturday - Sunday:
+                Close
+              </p>
             </div>
             <div class="col-lg-4 col-md-12 col-sm-12">
               <div class="user-items">
-                <ul class="d-flex justify-content-lg-end justify-content-md-start list-unstyled">
-                  <li class="search-item pe-3" data-bs-toggle="collapse" data-bs-target="#search-box" aria-controls="search-box" aria-expanded="false" aria-label="Toggle navigation">
+                <ul
+                  class="d-flex justify-content-lg-end justify-content-md-start list-unstyled"
+                >
+                  <li
+                    class="search-item pe-3"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#search-box"
+                    aria-controls="search-box"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
                     <a href="#">
                       <svg class="search gray-400" width="16" height="16">
                         <use xlink:href="#search"></use>
@@ -285,7 +518,11 @@
                     </a>
                   </li>
                   <li class="pe-3">
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#modallogin">
+                    <a
+                      href="#"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modallogin"
+                    >
                       <svg class="user gray-400" width="16" height="16">
                         <use xlink:href="#user"></use>
                       </svg>
@@ -299,8 +536,16 @@
                     </a>
                   </li>
                   <li class="pe-3">
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#modallong">
-                      <svg class="shopping-cart gray-400" width="16" height="16">
+                    <a
+                      href="#"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modallong"
+                    >
+                      <svg
+                        class="shopping-cart gray-400"
+                        width="16"
+                        height="16"
+                      >
                         <use xlink:href="#shopping-cart"></use>
                       </svg>
                     </a>
@@ -314,24 +559,52 @@
       <nav id="header-nav" class="navbar navbar-expand-lg px-3 mb-3">
         <div class="container-lg">
           <a class="navbar-brand" href="index.html">
-            <img src="images/main-logo.png" class="logo">
+            <img src="images/main-logo.png" class="logo" />
           </a>
-          <button class="navbar-toggler d-flex d-lg-none order-3 p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler d-flex d-lg-none order-3 p-2"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#bdNavbar"
+            aria-controls="bdNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <svg class="navbar-icon">
               <use xlink:href="#navbar-icon"></use>
             </svg>
           </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel">
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="bdNavbar"
+            aria-labelledby="bdNavbarOffcanvasLabel"
+          >
             <div class="offcanvas-header px-4 pb-0">
               <a class="navbar-brand" href="index.html">
-                <img src="images/main-logo.png" class="logo">
+                <img src="images/main-logo.png" class="logo" />
               </a>
-              <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdNavbar"></button>
+              <button
+                type="button"
+                class="btn-close btn-close-black"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+                data-bs-target="#bdNavbar"
+              ></button>
             </div>
             <div class="offcanvas-body text-hover">
-              <ul id="navbar" class="navbar-nav justify-content-end align-items-center flex-grow-1 pe-3">
+              <ul
+                id="navbar"
+                class="navbar-nav justify-content-end align-items-center flex-grow-1 pe-3"
+              >
                 <li class="nav-item dropdown">
-                  <a class="nav-link me-5 active dropdown-toggle no-border" href="#" data-bs-toggle="dropdown" aria-expanded="">Home <svg class="dropdown" width="20" height="20">
+                  <a
+                    class="nav-link me-5 active dropdown-toggle no-border"
+                    href="#"
+                    data-bs-toggle="dropdown"
+                    aria-expanded=""
+                    >Home
+                    <svg class="dropdown" width="20" height="20">
                       <use xlink:href="#dropdown"></use>
                     </svg>
                   </a>
@@ -368,10 +641,14 @@
     </header>
     <div class="hero-section text-center mt-5">
       <div class="container-lg">
-        <h2 class="subheading">Welcome to </h2>
+        <h2 class="subheading">Welcome to</h2>
         <h1 class="heading fw-bold">Our Online Store</h1>
         <div class="image-holder">
-          <img class="mx-auto mt-4 mb-4 img-fluid" src="images/single-image.jpg" alt="">
+          <img
+            class="mx-auto mt-4 mb-4 img-fluid"
+            src="images/single-image.jpg"
+            alt=""
+          />
         </div>
       </div>
     </div>
@@ -385,15 +662,43 @@
                 <span class="exp-number pe-2">03</span>
                 <span class="subheading">Years of Experience</span>
               </div>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry’s standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+              </p>
               <div class="tags mt-5">
                 <ul class="d-flex flex-wrap list-unstyled">
-                  <li class="me-3 mb-3 d-flex justify-content-center align-items-center">Communication</li>
-                  <li class="me-3 mb-3 d-flex justify-content-center align-items-center">Policy</li>
-                  <li class="me-3 mb-3 d-flex justify-content-center align-items-center">Problem solving</li>
-                  <li class="me-3 mb-3 d-flex justify-content-center align-items-center">Service</li>
-                  <li class="me-3 mb-3 d-flex justify-content-center align-items-center">Integration</li>
-                  <li class="me-3 mb-3 d-flex justify-content-center align-items-center">Customer care</li>
+                  <li
+                    class="me-3 mb-3 d-flex justify-content-center align-items-center"
+                  >
+                    Communication
+                  </li>
+                  <li
+                    class="me-3 mb-3 d-flex justify-content-center align-items-center"
+                  >
+                    Policy
+                  </li>
+                  <li
+                    class="me-3 mb-3 d-flex justify-content-center align-items-center"
+                  >
+                    Problem solving
+                  </li>
+                  <li
+                    class="me-3 mb-3 d-flex justify-content-center align-items-center"
+                  >
+                    Service
+                  </li>
+                  <li
+                    class="me-3 mb-3 d-flex justify-content-center align-items-center"
+                  >
+                    Integration
+                  </li>
+                  <li
+                    class="me-3 mb-3 d-flex justify-content-center align-items-center"
+                  >
+                    Customer care
+                  </li>
                 </ul>
               </div>
             </div>
@@ -403,7 +708,13 @@
               <div class="col-md-12">
                 <div class="who-we-are bg-gray p-5 mb-3">
                   <h2 class="mb-3">Who we are ?</h2>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry’s
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley. Lorem Ipsum is simply dummy text of
+                    the printing and typesetting industry.
+                  </p>
                 </div>
               </div>
             </div>
@@ -442,14 +753,24 @@
         <div class="row">
           <div class="display-header text-center">
             <h2>Meet Our Team</h2>
-            <p class="mx-auto pt-3 pb-3">Our Team is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever an unknown printer took a galley</p>
+            <p class="mx-auto pt-3 pb-3">
+              Our Team is dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry’s standard dummy text ever an
+              unknown printer took a galley
+            </p>
           </div>
           <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12">
               <div class="team-item mb-3">
                 <div class="card-item mb-3 position-relative text-center">
-                  <img src="images/team-item1.jpg" alt="team-member" class="img-fluid">
-                  <ul class="social-link list-unstyled d-flex justify-content-center position-absolute">
+                  <img
+                    src="images/team-item1.jpg"
+                    alt="team-member"
+                    class="img-fluid"
+                  />
+                  <ul
+                    class="social-link list-unstyled d-flex justify-content-center position-absolute"
+                  >
                     <li class="bg-light ps-1 pe-1 me-2">
                       <a href="#">
                         <svg class="facebook" width="16" height="16">
@@ -482,8 +803,14 @@
             <div class="col-lg-3 col-md-6 col-sm-12">
               <div class="team-item mb-3">
                 <div class="card-item mb-3 position-relative text-center">
-                  <img src="images/team-item2.jpg" alt="team-member" class="img-fluid">
-                  <ul class="social-link list-unstyled d-flex justify-content-center position-absolute">
+                  <img
+                    src="images/team-item2.jpg"
+                    alt="team-member"
+                    class="img-fluid"
+                  />
+                  <ul
+                    class="social-link list-unstyled d-flex justify-content-center position-absolute"
+                  >
                     <li class="bg-light ps-1 pe-1 me-2">
                       <a href="#">
                         <svg class="facebook" width="16" height="16">
@@ -516,8 +843,14 @@
             <div class="col-lg-3 col-md-6 col-sm-12">
               <div class="team-item mb-3">
                 <div class="card-item mb-3 position-relative text-center">
-                  <img src="images/team-item3.jpg" alt="team-member" class="img-fluid">
-                  <ul class="social-link list-unstyled d-flex justify-content-center position-absolute">
+                  <img
+                    src="images/team-item3.jpg"
+                    alt="team-member"
+                    class="img-fluid"
+                  />
+                  <ul
+                    class="social-link list-unstyled d-flex justify-content-center position-absolute"
+                  >
                     <li class="bg-light ps-1 pe-1 me-2">
                       <a href="#">
                         <svg class="facebook" width="16" height="16">
@@ -550,8 +883,14 @@
             <div class="col-lg-3 col-md-6 col-sm-12">
               <div class="team-item">
                 <div class="card-item mb-3 position-relative text-center">
-                  <img src="images/team-item4.jpg" alt="team-member" class="img-fluid">
-                  <ul class="social-link list-unstyled d-flex justify-content-center position-absolute">
+                  <img
+                    src="images/team-item4.jpg"
+                    alt="team-member"
+                    class="img-fluid"
+                  />
+                  <ul
+                    class="social-link list-unstyled d-flex justify-content-center position-absolute"
+                  >
                     <li class="bg-light ps-1 pe-1 me-2">
                       <a href="#">
                         <svg class="facebook" width="16" height="16">
@@ -596,14 +935,23 @@
               <div class="review-item d-flex align-items-center mb-3">
                 <div class="col-lg-4 col-md-3 col-sm-6 me-3">
                   <div class="image-holder mb-3">
-                    <img src="images/review-item2.jpg" alt="review" class="img-fluid">
+                    <img
+                      src="images/review-item2.jpg"
+                      alt="review"
+                      class="img-fluid"
+                    />
                   </div>
                 </div>
                 <div class="col-lg-8 col-md-9 col-sm-6">
                   <div class="meta-detail">
                     <sapn class="meta-date">Apr 29.2023</sapn>
                     <h3 class="display-7">Rose Smith</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry’s
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -612,14 +960,23 @@
               <div class="review-item d-flex align-items-center">
                 <div class="col-lg-4 col-md-3 col-sm-6 me-3">
                   <div class="image-holder mb-3">
-                    <img src="images/review-item2.jpg" alt="review" class="img-fluid">
+                    <img
+                      src="images/review-item2.jpg"
+                      alt="review"
+                      class="img-fluid"
+                    />
                   </div>
                 </div>
                 <div class="col-lg-8 col-md-9 col-sm-6">
                   <div class="meta-detail">
                     <sapn class="meta-date">Apr 29.2023</sapn>
                     <h3 class="display-7">Rose Smith</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry’s
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -639,7 +996,11 @@
               <div class="card-item pe-3">
                 <div class="card border-0 bg-transparent">
                   <div class="card-image zoom-effect">
-                    <img src="images/post-item5.jpg" alt="" class="post-image img-fluid">
+                    <img
+                      src="images/post-item5.jpg"
+                      alt=""
+                      class="post-image img-fluid"
+                    />
                   </div>
                 </div>
                 <div class="card-body p-0 mt-4">
@@ -647,7 +1008,10 @@
                   <h3 class="card-title fs-4">
                     <a href="#">Running Shoes For Men</a>
                   </h3>
-                  <p class="fs-5">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <p class="fs-5">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content.
+                  </p>
                 </div>
               </div>
             </div>
@@ -655,7 +1019,11 @@
               <div class="card-item pe-3">
                 <div class="card border-0 bg-transparent">
                   <div class="card-image zoom-effect">
-                    <img src="images/post-item6.jpg" alt="" class="post-image img-fluid">
+                    <img
+                      src="images/post-item6.jpg"
+                      alt=""
+                      class="post-image img-fluid"
+                    />
                   </div>
                 </div>
                 <div class="card-body p-0 mt-4">
@@ -663,7 +1031,10 @@
                   <h3 class="card-title fs-4">
                     <a href="#">Running Shoes For Men</a>
                   </h3>
-                  <p class="fs-5">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <p class="fs-5">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content.
+                  </p>
                 </div>
               </div>
             </div>
@@ -671,7 +1042,11 @@
               <div class="card-item pe-2">
                 <div class="card border-0 bg-transparent">
                   <div class="card-image zoom-effect">
-                    <img src="images/post-item7.jpg" alt="" class="post-image img-fluid">
+                    <img
+                      src="images/post-item7.jpg"
+                      alt=""
+                      class="post-image img-fluid"
+                    />
                   </div>
                 </div>
                 <div class="card-body p-0 mt-4">
@@ -679,7 +1054,10 @@
                   <h3 class="card-title fs-4">
                     <a href="#">Running Shoes For Men</a>
                   </h3>
-                  <p class="fs-5">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <p class="fs-5">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content.
+                  </p>
                 </div>
               </div>
             </div>
@@ -693,7 +1071,9 @@
           <div class="col-lg-3 col-sm-6 pb-3">
             <div class="footer-menu">
               <h5 class="widget-title pb-2 light">Info</h5>
-              <ul class="menu-list list-unstyled text-uppercase text-hover light-border gray-400">
+              <ul
+                class="menu-list list-unstyled text-uppercase text-hover light-border gray-400"
+              >
                 <li class="pb-2">
                   <a href="#">Track Your Order</a>
                 </li>
@@ -721,7 +1101,9 @@
           <div class="col-lg-3 col-sm-6 pb-3">
             <div class="footer-menu">
               <h5 class="widget-title pb-2 light">Products</h5>
-              <ul class="menu-list list-unstyled text-uppercase text-hover light-border gray-400">
+              <ul
+                class="menu-list list-unstyled text-uppercase text-hover light-border gray-400"
+              >
                 <li class="pb-2">
                   <a href="#">Prices Drop</a>
                 </li>
@@ -746,7 +1128,9 @@
           <div class="col-lg-3 col-sm-6 pb-3">
             <div class="footer-menu text-hover">
               <h5 class="widget-title pb-2 light">Our Company</h5>
-              <ul class="menu-list list-unstyled text-uppercase text-hover light-border gray-400">
+              <ul
+                class="menu-list list-unstyled text-uppercase text-hover light-border gray-400"
+              >
                 <li class="pb-2">
                   <a href="#">Delivery</a>
                 </li>
@@ -766,10 +1150,14 @@
             <div class="footer-menu">
               <h5 class="widget-title pb-2 light">Get In Touch</h5>
               <div class="footer-contact-text gray-400">
-                <span>Stylisht Online Store <br>123 Main Street, Toulouse - France. </span>
+                <span
+                  >Stylisht Online Store <br />123 Main Street, Toulouse -
+                  France.
+                </span>
                 <span> Call us: <(+33) 800 456 789-987 </span>
-                    <span class="text-hover light-border"> Email us: <a href="mailto:">stylish@gmail.com</a>
-                    </span>
+                <span class="text-hover light-border">
+                  Email us: <a href="mailto:">stylish@gmail.com</a>
+                </span>
               </div>
             </div>
           </div>
